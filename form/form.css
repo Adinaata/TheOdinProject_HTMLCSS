@@ -23,6 +23,7 @@ body {
 .sidebar {
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 
 #background-image {
@@ -31,7 +32,29 @@ body {
     object-fit: cover; 
 }
 
+#absolute-comp {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;       
+    background-color: rgba(0, 0, 0, 0.4); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 20px 0;
+}
 
+#odin-lined {
+    width: 120px;
+    height: auto;
+}
+
+#logo-text {
+    font-size: 6rem;
+    color: #ffffff;
+    font-weight: bold;
+}
 .content-side {
     display: flex;
     flex-direction: column;
